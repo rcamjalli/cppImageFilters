@@ -1,0 +1,3 @@
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/cmake-build-debug/CMakeFiles/ImageEditor.dir
