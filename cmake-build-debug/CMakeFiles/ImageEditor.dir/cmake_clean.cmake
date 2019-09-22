@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ImageEditor.dir/main.cpp.o"
   "CMakeFiles/ImageEditor.dir/ImageFilter.cpp.o"
+  "CMakeFiles/ImageEditor.dir/Operations.cpp.o"
   "ImageEditor.pdb"
   "ImageEditor"
 )

@@ -88,6 +88,12 @@
 		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h">
 			<Option target="ImageEditor"/>
 		</Unit>
+		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/Operations.cpp">
+			<Option target="ImageEditor"/>
+		</Unit>
+		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/Operations.h">
+			<Option target="ImageEditor"/>
+		</Unit>
 		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/main.cpp">
 			<Option target="ImageEditor"/>
 		</Unit>

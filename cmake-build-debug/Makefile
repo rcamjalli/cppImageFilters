@@ -150,6 +150,33 @@ ImageFilter.cpp.s:
 	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/ImageFilter.cpp.s
 .PHONY : ImageFilter.cpp.s
 
+Operations.o: Operations.cpp.o
+
+.PHONY : Operations.o
+
+# target to build an object file
+Operations.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/Operations.cpp.o
+.PHONY : Operations.cpp.o
+
+Operations.i: Operations.cpp.i
+
+.PHONY : Operations.i
+
+# target to preprocess a source file
+Operations.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/Operations.cpp.i
+.PHONY : Operations.cpp.i
+
+Operations.s: Operations.cpp.s
+
+.PHONY : Operations.s
+
+# target to generate assembly for a file
+Operations.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/Operations.cpp.s
+.PHONY : Operations.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... ImageFilter.o"
 	@echo "... ImageFilter.i"
 	@echo "... ImageFilter.s"
+	@echo "... Operations.o"
+	@echo "... Operations.i"
+	@echo "... Operations.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

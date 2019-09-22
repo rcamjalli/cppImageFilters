@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.cpp
-ImageFilter.h
-/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h
-iostream
--
-
 /Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h
 opencv2/core/core.hpp
 -

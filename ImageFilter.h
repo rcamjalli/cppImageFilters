@@ -12,13 +12,30 @@
 using namespace std;
 using namespace cv;
 
-static string photo = "../photo.jpg";
+enum OPERATION {RELOAD, BLUR, SOBEL, GRAYSCALE, COLORS8, POOLING};
+enum OPERATION_RESULT {FAIL = -1, OK = 0};
 
-enum OPERATIONS {EXIT = 0, RELOAD, BLUR, SOBEL, GRAYSCALE, COLORS8, POOLING, NONE, FAIL = -1};
+class ImageFilter{
+public:
+    ImageFilter(string filename);
+    void loadNewImage(string filename);
+    void saveImage();
+    OPERATION_RESULT executeOperation(OPERATION operation);
+    OPERATION_RESULT executeOperations(vector<OPERATION> operations);
 
-Mat loadImage(string filename);
-void saveImage(Mat &img, string filename);
-int executeOperation(OPERATIONS o, Mat &img);
+private:
+    Mat _loadImage(string filename);
+    void _saveImage(Mat &img, string filename);
+    OPERATION_RESULT _executeOperation(OPERATION o, Mat &img);
+
+
+    string _filename;
+    Mat _img;
+};
+
+
+
+
 
 
 #endif //IMAGEEDITOR_IMAGEFILTER_H

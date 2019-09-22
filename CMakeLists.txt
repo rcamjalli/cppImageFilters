@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 find_package( OpenCV REQUIRED )
 
-set(SOURCE_FILES main.cpp ImageFilter.cpp ImageFilter.h)
+set(SOURCE_FILES main.cpp ImageFilter.cpp ImageFilter.h Operations.cpp Operations.h)
 
 add_executable(ImageEditor ${SOURCE_FILES})
 
