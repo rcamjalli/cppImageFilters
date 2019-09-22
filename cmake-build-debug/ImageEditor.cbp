@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.cpp">
+			<Option target="ImageEditor"/>
+		</Unit>
+		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h">
+			<Option target="ImageEditor"/>
+		</Unit>
 		<Unit filename="/Users/rcamjalli/Documents/Roni/cpp/boludeando/main.cpp">
 			<Option target="ImageEditor"/>
 		</Unit>

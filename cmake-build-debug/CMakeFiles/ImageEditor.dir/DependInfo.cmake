@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.cpp" "/Users/rcamjalli/Documents/Roni/cpp/boludeando/cmake-build-debug/CMakeFiles/ImageEditor.dir/ImageFilter.cpp.o"
   "/Users/rcamjalli/Documents/Roni/cpp/boludeando/main.cpp" "/Users/rcamjalli/Documents/Roni/cpp/boludeando/cmake-build-debug/CMakeFiles/ImageEditor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -123,6 +123,33 @@ ImageEditor/fast:
 	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/build
 .PHONY : ImageEditor/fast
 
+ImageFilter.o: ImageFilter.cpp.o
+
+.PHONY : ImageFilter.o
+
+# target to build an object file
+ImageFilter.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/ImageFilter.cpp.o
+.PHONY : ImageFilter.cpp.o
+
+ImageFilter.i: ImageFilter.cpp.i
+
+.PHONY : ImageFilter.i
+
+# target to preprocess a source file
+ImageFilter.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/ImageFilter.cpp.i
+.PHONY : ImageFilter.cpp.i
+
+ImageFilter.s: ImageFilter.cpp.s
+
+.PHONY : ImageFilter.s
+
+# target to generate assembly for a file
+ImageFilter.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageEditor.dir/build.make CMakeFiles/ImageEditor.dir/ImageFilter.cpp.s
+.PHONY : ImageFilter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ImageEditor"
+	@echo "... ImageFilter.o"
+	@echo "... ImageFilter.i"
+	@echo "... ImageFilter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
