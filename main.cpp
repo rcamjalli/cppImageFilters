@@ -6,17 +6,19 @@
 using namespace std;
 using namespace cv;
 
-int main() {
-
-    string imgPath;
-    cout << "Enter image path: ";
-    cin >> imgPath;
-
-    if(imgPath.size()<=0){
+int main(int argc, char *argv[]) {
+    if(argc < 3){
         return FAIL;
     }
 
-    ImageFilter filter(imgPath);
+    string imgPath = argv[1];
+    string wrPath = argv[2];
+
+    if(imgPath.size()<=0 || wrPath.size() <= 0){
+        return FAIL;
+    }
+
+    ImageFilter filter(imgPath, wrPath);
 
     vector<OPERATION> operations = {POOLING, POOLING, POOLING, COLORS8, GRAYSCALE, SOBEL};
 

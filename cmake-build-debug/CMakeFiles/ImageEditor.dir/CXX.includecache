@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.cpp
+ImageFilter.h
 /Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h
+Operations.h
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/Operations.h
+iostream
+-
+
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/ImageFilter.h
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
+/Users/rcamjalli/Documents/Roni/cpp/boludeando/Operations.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp

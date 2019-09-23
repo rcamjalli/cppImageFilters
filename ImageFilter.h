@@ -17,7 +17,7 @@ enum OPERATION_RESULT {FAIL = -1, OK = 0};
 
 class ImageFilter{
 public:
-    ImageFilter(string filename);
+    ImageFilter(string readFile, string writeFile);
     void loadNewImage(string filename);
     void saveImage();
     OPERATION_RESULT executeOperation(OPERATION operation);
@@ -29,7 +29,8 @@ private:
     OPERATION_RESULT _executeOperation(OPERATION o, Mat &img);
 
 
-    string _filename;
+    string _readFile;
+    string _writeFile;
     Mat _img;
 };
 

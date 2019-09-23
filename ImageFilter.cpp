@@ -6,17 +6,17 @@
 #import "Operations.h"
 #include <iostream>
 
-ImageFilter::ImageFilter(const string filename) {
-    loadNewImage(filename);
+ImageFilter::ImageFilter(const string readFile, const string writeFile): _readFile(readFile), _writeFile(writeFile) {
+    _executeOperation(RELOAD,_img);
 }
 
 void ImageFilter::loadNewImage(const string filename) {
-    _filename = filename;
+    _readFile = filename;
     _executeOperation(RELOAD,_img);
 }
 
 void ImageFilter::saveImage() {
-    _saveImage(_img, _filename);
+    _saveImage(_img, _writeFile);
 }
 
 OPERATION_RESULT ImageFilter::executeOperations(const vector<OPERATION> operations){
@@ -50,7 +50,7 @@ OPERATION_RESULT ImageFilter::_executeOperation(const OPERATION o, Mat &img){
     double t = getTickCount();
     switch (o) {
         case RELOAD:
-            img = _loadImage(_filename);
+            img = _loadImage(_readFile);
             break;
         case BLUR:
             blurImage(img);
