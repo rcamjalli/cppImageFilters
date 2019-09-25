@@ -12,7 +12,7 @@
 using namespace std;
 using namespace cv;
 
-enum OPERATION {RELOAD, BLUR, SOBEL, GRAYSCALE, COLORS8, POOLING};
+enum OPERATION {RELOAD, BLUR, SOBEL, GRAYSCALE, COLORS8, INVERTCOLORS, POOLING};
 enum OPERATION_RESULT {FAIL = -1, OK = 0};
 
 class ImageFilter{

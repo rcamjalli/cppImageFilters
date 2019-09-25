@@ -16,5 +16,6 @@ void to8Colors(Mat &img);
 void blurImage(Mat &img);
 void sobelFilter(Mat &img);
 void pooling(Mat &img);
+void invertColors(Mat &img);
 
 #endif //IMAGEEDITOR_OPERATIONS_H

@@ -64,6 +64,9 @@ OPERATION_RESULT ImageFilter::_executeOperation(const OPERATION o, Mat &img){
         case COLORS8:
             to8Colors(img);
             break;
+        case INVERTCOLORS:
+            invertColors(img);
+            break;
         case POOLING:
             pooling(img);
             break;

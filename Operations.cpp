@@ -100,3 +100,11 @@ void pooling(Mat &img){
     });
     res.copyTo(img);
 }
+
+void invertColors(Mat &img){
+    generalEdition(img,[](Vec3d &pixel){
+        for (int i = 0; i < 3; ++i) {
+            pixel[i] = 255 - pixel[i];
+        }
+    });
+}

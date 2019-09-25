@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
     ImageFilter filter(imgPath, wrPath);
 
-    vector<OPERATION> operations = {POOLING, POOLING, POOLING, COLORS8, GRAYSCALE, SOBEL};
+    vector<OPERATION> operations = {POOLING, POOLING, POOLING, COLORS8, GRAYSCALE, SOBEL, INVERTCOLORS};
 
     int key = filter.executeOperations(operations);
 
